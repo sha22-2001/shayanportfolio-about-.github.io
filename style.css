@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,#f2d2e3 ,#2e2bc5);
+    z-index: -1;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    min-height: 10vh;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    margin-left: 60px;
+}
+
+#logo{
+    grid-column: 2/3;
+    font-size: 24px;
+}
+
+section{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    height: 60%;
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#preloader
+{
+    background: rgb(255, 255, 255) url(img/preloader.gif) no-repeat center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.ABOUTME{
+    font-size: 25px;
+    font-family: "Nexa Light";
+    color: rgb(255, 255, 255);
+    line-height: 0.194;
+    position: absolute;
+    right: 30%;
+    z-index: 12;
+  }
+
+  .know{
+    font-size: 25px;
+    font-family: "Nexa Light";
+    color: rgb(255, 255, 255);
+    line-height: 0.194;
+    position: absolute;
+    right: 20%;
+    z-index: 12;
+    }
